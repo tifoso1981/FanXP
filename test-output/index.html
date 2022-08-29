@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
+                    <span>C:\Users\irina\AppData\Local\Temp\testng-eclipse--2135937075\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">34 methods, 4 failed,   30 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_fanTableIspresent_test">verify_fanTableIspresent_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_merchandiseDiagramIspresent_test">verify_merchandiseDiagramIspresent_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_sourcesTableIspresent_test">verify_sourcesTableIspresent_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_ticketsDiagramIspresent_test">verify_ticketsDiagramIspresent_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_ClickingSearchBarToFetchCountry_test">verify_ClickingSearchBarToFetchCountry_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_ClickingSearchBarToFetchEmail_test">verify_ClickingSearchBarToFetchEmail_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_MainPageTitle_test">verify_MainPageTitle_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingAddFiltersToValidateEmail_test">verify_clickingAddFiltersToValidateEmail_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingAllFiltersToValidateCountry_test">verify_clickingAllFiltersToValidateCountry_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingAllFiltersTovalidateEmail_test">verify_clickingAllFiltersTovalidateEmail_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingDemographicsBadge_test">verify_clickingDemographicsBadge_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingEditFilterToStartNewFiltration_test">verify_clickingEditFilterToStartNewFiltration_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingExcludeCountryFiltration_test">verify_clickingExcludeCountryFiltration_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingExcludeFiltration_test">verify_clickingExcludeFiltration_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingFanBadge_test">verify_clickingFanBadge_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingFilterKey_test">verify_clickingFilterKey_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingMerchandiseBadge_test">verify_clickingMerchandiseBadge_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingSelecCountrytFiltration_test">verify_clickingSelecCountrytFiltration_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingSelectFiltration_test">verify_clickingSelectFiltration_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingSourcesBadge_test">verify_clickingSourcesBadge_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingTheCountryFilterKey_test">verify_clickingTheCountryFilterKey_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingTicketsBadge_test">verify_clickingTicketsBadge_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingUpdateButton_test">verify_clickingUpdateButton_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingUpdateToCountryFilter_test">verify_clickingUpdateToCountryFilter_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_clickingWebBadge_test">verify_clickingWebBadge_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_demographyDiagramIspresent_test">verify_demographyDiagramIspresent_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_doLogin_test">verify_doLogin_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_sendingFilterKeyForCountryFilter_test">verify_sendingFilterKeyForCountryFilter_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_sendingFilterKey_test">verify_sendingFilterKey_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_validateFanCountPresent_test">verify_validateFanCountPresent_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_validateLogoPresence_test">verify_validateLogoPresence_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_validateOspreysPageTitle_test">verify_validateOspreysPageTitle_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_validateOverviewBadgeIsPresent_test">verify_validateOverviewBadgeIsPresent_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.pjd.qa.testcases.mavsTest" class="method navigator-link" hash-for-method="verify_webDiagramIspresent_test">verify_webDiagramIspresent_test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.pjd.qa.testcases.mavsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_fanTableIspresent_test">
+                  </a> <!-- verify_fanTableIspresent_test -->
+                  <span class="method-name">verify_fanTableIspresent_test</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //main[@class = &apos;userList&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.pjd.qa.util.elementUtil.waitForElementPresent(elementUtil.java:282)
+	at com.pjd.qa.pages.mavs.fanTableIspresent(mavs.java:184)
+	at com.pjd.qa.testcases.mavsTest.verify_fanTableIspresent_test(mavsTest.java:168)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//main[@class = &apos;userList&apos;]&quot;}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QHQ78OS&apos;, ip: &apos;10.0.0.155&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\irina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 618dd49cf951d2d6cf328f409e261e74
+*** Element info: {Using=xpath, value=//main[@class = &apos;userList&apos;]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_merchandiseDiagramIspresent_test">
+                  </a> <!-- verify_merchandiseDiagramIspresent_test -->
+                  <span class="method-name">verify_merchandiseDiagramIspresent_test</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: //div[@class = &apos;curvedLineGraph__GraphContainer-sc-155ztx1-6 gBxMzo&apos;] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.pjd.qa.util.elementUtil.waitForElementPresent(elementUtil.java:282)
+	at com.pjd.qa.pages.mavs.merchandiseDiagramIspresent(mavs.java:211)
+	at com.pjd.qa.testcases.mavsTest.verify_merchandiseDiagramIspresent_test(mavsTest.java:199)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class = &apos;curvedLineGraph__GraphContainer-sc-155ztx1-6 gBxMzo&apos;]&quot;}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QHQ78OS&apos;, ip: &apos;10.0.0.155&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\irina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 618dd49cf951d2d6cf328f409e261e74
+*** Element info: {Using=xpath, value=//div[@class = &apos;curvedLineGraph__GraphContainer-sc-155ztx1-6 gBxMzo&apos;]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_sourcesTableIspresent_test">
+                  </a> <!-- verify_sourcesTableIspresent_test -->
+                  <span class="method-name">verify_sourcesTableIspresent_test</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class = &apos;Sources__TableContainer-hk5q41-3 dOnpiN custom_table&apos;])[1] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.pjd.qa.util.elementUtil.waitForElementPresent(elementUtil.java:282)
+	at com.pjd.qa.pages.mavs.sourcesTableIspresent(mavs.java:193)
+	at com.pjd.qa.testcases.mavsTest.verify_sourcesTableIspresent_test(mavsTest.java:179)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class = &apos;Sources__TableContainer-hk5q41-3 dOnpiN custom_table&apos;])[1]&quot;}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QHQ78OS&apos;, ip: &apos;10.0.0.155&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\irina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 618dd49cf951d2d6cf328f409e261e74
+*** Element info: {Using=xpath, value=(//div[@class = &apos;Sources__TableContainer-hk5q41-3 dOnpiN custom_table&apos;])[1]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_ticketsDiagramIspresent_test">
+                  </a> <!-- verify_ticketsDiagramIspresent_test -->
+                  <span class="method-name">verify_ticketsDiagramIspresent_test</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.xpath: (//div[@class = &apos;curvedLineGraph__GraphContainer-sc-155ztx1-6 gBxMzo&apos;])[1] (tried for 20 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at com.pjd.qa.util.elementUtil.waitForElementPresent(elementUtil.java:282)
+	at com.pjd.qa.pages.mavs.ticketsDiagramIspresent(mavs.java:202)
+	at com.pjd.qa.testcases.mavsTest.verify_ticketsDiagramIspresent_test(mavsTest.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;(//div[@class = &apos;curvedLineGraph__GraphContainer-sc-155ztx1-6 gBxMzo&apos;])[1]&quot;}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-QHQ78OS&apos;, ip: &apos;10.0.0.155&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\irina\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57832}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 618dd49cf951d2d6cf328f409e261e74
+*** Element info: {Using=xpath, value=(//div[@class = &apos;curvedLineGraph__GraphContainer-sc-155ztx1-6 gBxMzo&apos;])[1]}
+	at jdk.internal.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:182)
+	at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:179)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 28 more
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pjd.qa.testcases.mavsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_ClickingSearchBarToFetchCountry_test">
+                  </a> <!-- verify_ClickingSearchBarToFetchCountry_test -->
+                  <span class="method-name">verify_ClickingSearchBarToFetchCountry_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_ClickingSearchBarToFetchEmail_test">
+                  </a> <!-- verify_ClickingSearchBarToFetchEmail_test -->
+                  <span class="method-name">verify_ClickingSearchBarToFetchEmail_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_MainPageTitle_test">
+                  </a> <!-- verify_MainPageTitle_test -->
+                  <span class="method-name">verify_MainPageTitle_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingAddFiltersToValidateEmail_test">
+                  </a> <!-- verify_clickingAddFiltersToValidateEmail_test -->
+                  <span class="method-name">verify_clickingAddFiltersToValidateEmail_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingAllFiltersToValidateCountry_test">
+                  </a> <!-- verify_clickingAllFiltersToValidateCountry_test -->
+                  <span class="method-name">verify_clickingAllFiltersToValidateCountry_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingAllFiltersTovalidateEmail_test">
+                  </a> <!-- verify_clickingAllFiltersTovalidateEmail_test -->
+                  <span class="method-name">verify_clickingAllFiltersTovalidateEmail_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingDemographicsBadge_test">
+                  </a> <!-- verify_clickingDemographicsBadge_test -->
+                  <span class="method-name">verify_clickingDemographicsBadge_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingEditFilterToStartNewFiltration_test">
+                  </a> <!-- verify_clickingEditFilterToStartNewFiltration_test -->
+                  <span class="method-name">verify_clickingEditFilterToStartNewFiltration_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingExcludeCountryFiltration_test">
+                  </a> <!-- verify_clickingExcludeCountryFiltration_test -->
+                  <span class="method-name">verify_clickingExcludeCountryFiltration_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingExcludeFiltration_test">
+                  </a> <!-- verify_clickingExcludeFiltration_test -->
+                  <span class="method-name">verify_clickingExcludeFiltration_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingFanBadge_test">
+                  </a> <!-- verify_clickingFanBadge_test -->
+                  <span class="method-name">verify_clickingFanBadge_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingFilterKey_test">
+                  </a> <!-- verify_clickingFilterKey_test -->
+                  <span class="method-name">verify_clickingFilterKey_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingMerchandiseBadge_test">
+                  </a> <!-- verify_clickingMerchandiseBadge_test -->
+                  <span class="method-name">verify_clickingMerchandiseBadge_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingSelecCountrytFiltration_test">
+                  </a> <!-- verify_clickingSelecCountrytFiltration_test -->
+                  <span class="method-name">verify_clickingSelecCountrytFiltration_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingSelectFiltration_test">
+                  </a> <!-- verify_clickingSelectFiltration_test -->
+                  <span class="method-name">verify_clickingSelectFiltration_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingSourcesBadge_test">
+                  </a> <!-- verify_clickingSourcesBadge_test -->
+                  <span class="method-name">verify_clickingSourcesBadge_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingTheCountryFilterKey_test">
+                  </a> <!-- verify_clickingTheCountryFilterKey_test -->
+                  <span class="method-name">verify_clickingTheCountryFilterKey_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingTicketsBadge_test">
+                  </a> <!-- verify_clickingTicketsBadge_test -->
+                  <span class="method-name">verify_clickingTicketsBadge_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingUpdateButton_test">
+                  </a> <!-- verify_clickingUpdateButton_test -->
+                  <span class="method-name">verify_clickingUpdateButton_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingUpdateToCountryFilter_test">
+                  </a> <!-- verify_clickingUpdateToCountryFilter_test -->
+                  <span class="method-name">verify_clickingUpdateToCountryFilter_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_clickingWebBadge_test">
+                  </a> <!-- verify_clickingWebBadge_test -->
+                  <span class="method-name">verify_clickingWebBadge_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_demographyDiagramIspresent_test">
+                  </a> <!-- verify_demographyDiagramIspresent_test -->
+                  <span class="method-name">verify_demographyDiagramIspresent_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_doLogin_test">
+                  </a> <!-- verify_doLogin_test -->
+                  <span class="method-name">verify_doLogin_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_sendingFilterKeyForCountryFilter_test">
+                  </a> <!-- verify_sendingFilterKeyForCountryFilter_test -->
+                  <span class="method-name">verify_sendingFilterKeyForCountryFilter_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_sendingFilterKey_test">
+                  </a> <!-- verify_sendingFilterKey_test -->
+                  <span class="method-name">verify_sendingFilterKey_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_validateFanCountPresent_test">
+                  </a> <!-- verify_validateFanCountPresent_test -->
+                  <span class="method-name">verify_validateFanCountPresent_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_validateLogoPresence_test">
+                  </a> <!-- verify_validateLogoPresence_test -->
+                  <span class="method-name">verify_validateLogoPresence_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_validateOspreysPageTitle_test">
+                  </a> <!-- verify_validateOspreysPageTitle_test -->
+                  <span class="method-name">verify_validateOspreysPageTitle_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_validateOverviewBadgeIsPresent_test">
+                  </a> <!-- verify_validateOverviewBadgeIsPresent_test -->
+                  <span class="method-name">verify_validateOverviewBadgeIsPresent_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_webDiagramIspresent_test">
+                  </a> <!-- verify_webDiagramIspresent_test -->
+                  <span class="method-name">verify_webDiagramIspresent_test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\irina\AppData\Local\Temp\testng-eclipse--2135937075\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pjd.qa.testcases.mavsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(34);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verify_fanTableIspresent_test')
+data.setCell(0, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(0, 3, 20130);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_sourcesTableIspresent_test')
+data.setCell(1, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(1, 3, 20094);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verify_ticketsDiagramIspresent_test')
+data.setCell(2, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(2, 3, 20083);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_merchandiseDiagramIspresent_test')
+data.setCell(3, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(3, 3, 20073);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_MainPageTitle_test')
+data.setCell(4, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(4, 3, 7033);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_clickingUpdateToCountryFilter_test')
+data.setCell(5, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(5, 3, 6022);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verify_clickingMerchandiseBadge_test')
+data.setCell(6, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(6, 3, 5722);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verify_clickingFanBadge_test')
+data.setCell(7, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(7, 3, 5717);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_clickingSourcesBadge_test')
+data.setCell(8, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(8, 3, 5662);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_clickingTicketsBadge_test')
+data.setCell(9, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(9, 3, 5644);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verify_clickingWebBadge_test')
+data.setCell(10, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(10, 3, 5583);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verify_doLogin_test')
+data.setCell(11, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(11, 3, 5328);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verify_clickingExcludeCountryFiltration_test')
+data.setCell(12, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(12, 3, 4844);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verify_clickingSelecCountrytFiltration_test')
+data.setCell(13, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(13, 3, 4658);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verify_clickingSelectFiltration_test')
+data.setCell(14, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(14, 3, 3885);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verify_clickingAllFiltersToValidateCountry_test')
+data.setCell(15, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(15, 3, 3873);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verify_clickingUpdateButton_test')
+data.setCell(16, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(16, 3, 3714);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verify_clickingTheCountryFilterKey_test')
+data.setCell(17, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(17, 3, 3659);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verify_validateOspreysPageTitle_test')
+data.setCell(18, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(18, 3, 3009);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verify_clickingDemographicsBadge_test')
+data.setCell(19, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(19, 3, 1620);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verify_sendingFilterKeyForCountryFilter_test')
+data.setCell(20, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(20, 3, 1565);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verify_clickingEditFilterToStartNewFiltration_test')
+data.setCell(21, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(21, 3, 1393);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verify_sendingFilterKey_test')
+data.setCell(22, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(22, 3, 1373);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verify_ClickingSearchBarToFetchEmail_test')
+data.setCell(23, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(23, 3, 1012);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verify_clickingAddFiltersToValidateEmail_test')
+data.setCell(24, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(24, 3, 982);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verify_ClickingSearchBarToFetchCountry_test')
+data.setCell(25, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(25, 3, 865);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verify_clickingAllFiltersTovalidateEmail_test')
+data.setCell(26, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(26, 3, 837);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verify_clickingExcludeFiltration_test')
+data.setCell(27, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(27, 3, 797);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verify_validateLogoPresence_test')
+data.setCell(28, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(28, 3, 716);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verify_clickingFilterKey_test')
+data.setCell(29, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(29, 3, 694);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verify_validateOverviewBadgeIsPresent_test')
+data.setCell(30, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(30, 3, 659);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verify_validateFanCountPresent_test')
+data.setCell(31, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(31, 3, 24);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verify_demographyDiagramIspresent_test')
+data.setCell(32, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(32, 3, 23);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verify_webDiagramIspresent_test')
+data.setCell(33, 2, 'com.pjd.qa.testcases.mavsTest')
+data.setCell(33, 3, 18);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pjd.qa.testcases.mavsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">verify_MainPageTitle_test</span>
+                <span class="method-start">15301 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_validateLogoPresence_test</span>
+                <span class="method-start">22339 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_doLogin_test</span>
+                <span class="method-start">23058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_validateOspreysPageTitle_test</span>
+                <span class="method-start">28388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_validateOverviewBadgeIsPresent_test</span>
+                <span class="method-start">31398 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingAddFiltersToValidateEmail_test</span>
+                <span class="method-start">32061 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingAllFiltersTovalidateEmail_test</span>
+                <span class="method-start">33044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_ClickingSearchBarToFetchEmail_test</span>
+                <span class="method-start">33882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_sendingFilterKey_test</span>
+                <span class="method-start">34897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingFilterKey_test</span>
+                <span class="method-start">36272 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingSelectFiltration_test</span>
+                <span class="method-start">36968 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingExcludeFiltration_test</span>
+                <span class="method-start">40855 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingUpdateButton_test</span>
+                <span class="method-start">41653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_validateFanCountPresent_test</span>
+                <span class="method-start">45368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingEditFilterToStartNewFiltration_test</span>
+                <span class="method-start">45393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingAllFiltersToValidateCountry_test</span>
+                <span class="method-start">46787 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_ClickingSearchBarToFetchCountry_test</span>
+                <span class="method-start">50661 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_sendingFilterKeyForCountryFilter_test</span>
+                <span class="method-start">51528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingTheCountryFilterKey_test</span>
+                <span class="method-start">53095 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingSelecCountrytFiltration_test</span>
+                <span class="method-start">56755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingExcludeCountryFiltration_test</span>
+                <span class="method-start">61414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingUpdateToCountryFilter_test</span>
+                <span class="method-start">66261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingDemographicsBadge_test</span>
+                <span class="method-start">72285 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_demographyDiagramIspresent_test</span>
+                <span class="method-start">73906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingWebBadge_test</span>
+                <span class="method-start">73930 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_webDiagramIspresent_test</span>
+                <span class="method-start">79515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingFanBadge_test</span>
+                <span class="method-start">79533 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_fanTableIspresent_test</span>
+                <span class="method-start">85253 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingSourcesBadge_test</span>
+                <span class="method-start">105387 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_sourcesTableIspresent_test</span>
+                <span class="method-start">111050 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingTicketsBadge_test</span>
+                <span class="method-start">131146 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_ticketsDiagramIspresent_test</span>
+                <span class="method-start">136792 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verify_clickingMerchandiseBadge_test</span>
+                <span class="method-start">156879 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verify_merchandiseDiagramIspresent_test</span>
+                <span class="method-start">162603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182679 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

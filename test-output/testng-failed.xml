@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.pjd.qa.testcases.mavsTest">
+        <methods>
+          <include name="verify_merchandiseDiagramIspresent_test"/>
+          <include name="verify_ticketsDiagramIspresent_test"/>
+          <include name="verify_sourcesTableIspresent_test"/>
+          <include name="setup"/>
+          <include name="verify_fanTableIspresent_test"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.pjd.qa.testcases.mavsTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
