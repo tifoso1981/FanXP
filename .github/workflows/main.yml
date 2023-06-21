@@ -1,4 +1,4 @@
-name: allure-junit5-maven
+name: allure-junit5-maven - PRIVATE
 
 on: [ push ]
 
